@@ -18,10 +18,10 @@ class Elevator {
         switch(buttonListerner.type) {
             case buttonOption.upward:
                 const upwardButtonHandlerObj = this.upwardButtonHandler(buttonListerner.data);
-                upwardButtonHandlerObj.takeAction()
+                upwardButtonHandlerObj.takeAction();
             case buttonOption.downward:
                 const downwardButtonHandlerObj = this.downwardButtonHandler(buttonListerner.data);
-                downwardButtonHandlerObj.takeAction()
+                downwardButtonHandlerObj.takeAction();
             // more cases follow
             default:
                 logger.log(" Invalid buttonListerner type ");
