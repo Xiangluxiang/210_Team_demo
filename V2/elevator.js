@@ -22,10 +22,9 @@ class Elevator {
             case buttonOption.downward:
                 const downwardButtonHandlerObj = this.downwardButtonHandler(buttonListerner.data);
                 downwardButtonHandlerObj.takeAction()
-            //more cases follow
+            // more cases follow
             default:
                 logger.log(" Invalid buttonListerner type ");
         }
     }
 }
-

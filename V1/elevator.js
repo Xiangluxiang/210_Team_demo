@@ -11,13 +11,7 @@ class Elevator {
             console.log('The elevator reaches the maximum capacity now');
             // If the elevator is reaching the total weight limit
         }
-        // if (buttonListerner.type == buttonType.outside) {
-        //     compareUserElevatorFloors()
-        //     moveTowardsTheUser()
-        //     // Open doors, delay and close the doors
-            
-        // }
-         else if (buttonListerner.type == buttonType.inside) {
+        else if (buttonListerner.type == buttonType.inside) {
             const maxWeightBreach = weightCheck()
             if (!maxWeightBreach) {
                 if (buttonListerner.choice == buttonOption.upward) {
