@@ -1,4 +1,6 @@
-import {UpwardActionHandler, DownwardActionHandler, StopctionHandler} from "ActionHandlers";
+import {UpwardActionHandler} from "ActionHandlers/UpwardActionHandler";
+import {DownwardActionHandler} from "ActionHandlers/DownwardActionHandler";
+import {StopctionHandler} from "ActionHandlers/StopctionHandler";
 import {SafetyChecksModule} from "SafetyChecksModule";
 
 class Elevator {
