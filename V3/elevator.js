@@ -12,7 +12,7 @@ class Elevator {
     }
 
     handlebuttonListerner(buttonListerner) {
-        safetyChecksModule.checkElevatorLoad(this.currentLoad);
+        this.safetyChecksModule.checkElevatorLoad(this.currentLoad);
         const actionHandler = this.elevatorActionAdapter.getActionHandler(buttonListerner.type)
         actionHandler.doSomething();
     }
